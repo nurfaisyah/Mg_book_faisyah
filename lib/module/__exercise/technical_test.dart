@@ -20,7 +20,7 @@ class TechnicalTest {
       int output = 42;
       // --- End of Answer ---
 
-      return output is int && output == 42;
+      return output == 42;
     },
     // Exercise 3
     () {
@@ -29,7 +29,7 @@ class TechnicalTest {
       int output = -7;
       // --- End of Answer ---
 
-      return output is int && output == -7;
+      return output == -7;
     },
     // Exercise 4
     () {
@@ -38,7 +38,7 @@ class TechnicalTest {
       int output = 0;
       // --- End of Answer ---
 
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 5
     () {
@@ -47,7 +47,7 @@ class TechnicalTest {
       int output = 99999;
       // --- End of Answer ---
 
-      return output is int && output == 99999;
+      return output == 99999;
     },
     // Exercise 6
     () {
@@ -56,7 +56,7 @@ class TechnicalTest {
       int output = -12345;
       // --- End of Answer ---
 
-      return output is int && output == -12345;
+      return output == -12345;
     },
     // Exercise 7
     () {
@@ -65,7 +65,7 @@ class TechnicalTest {
       int output = 1000000;
       // --- End of Answer ---
 
-      return output is int && output == 1000000;
+      return output == 1000000;
     },
     // Exercise 8
     () {
@@ -74,7 +74,7 @@ class TechnicalTest {
       int output = -987654;
       // --- End of Answer ---
 
-      return output is int && output == -987654;
+      return output == -987654;
     },
     // Exercise 9
     () {
@@ -83,7 +83,7 @@ class TechnicalTest {
       int output = 888;
       // --- End of Answer ---
 
-      return output is int && output == 888;
+      return output == 888;
     },
     // Exercise 10
     () {
@@ -92,7 +92,7 @@ class TechnicalTest {
       int output = -555;
       // --- End of Answer ---
 
-      return output is int && output == -555;
+      return output == -555;
     },
     // Exercise 11
     () {
@@ -101,7 +101,7 @@ class TechnicalTest {
       double output = 3.14;
       // --- End of Answer ---
 
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 12
     () {
@@ -110,7 +110,7 @@ class TechnicalTest {
       double output = 2.71828;
       // --- End of Answer ---
 
-      return output is double && output == 2.71828;
+      return output == 2.71828;
     },
     // Exercise 13
     () {
@@ -119,7 +119,7 @@ class TechnicalTest {
       double output = -5.67;
       // --- End of Answer ---
 
-      return output is double && output == -5.67;
+      return output == -5.67;
     },
     // Exercise 14
     () {
@@ -128,7 +128,7 @@ class TechnicalTest {
       double output = 0.0;
       // --- End of Answer ---
 
-      return output is double && output == 0.0;
+      return output == 0.0;
     },
     // Exercise 15
     () {
@@ -137,7 +137,7 @@ class TechnicalTest {
       double output = 12345.6789;
       // --- End of Answer ---
 
-      return output is double && output == 12345.6789;
+      return output == 12345.6789;
     },
     // Exercise 16
     () {
@@ -146,7 +146,7 @@ class TechnicalTest {
       double output = 7.5;
       // --- End of Answer ---
 
-      return output is double && output == 7.5;
+      return output == 7.5;
     },
     // Exercise 17
     () {
@@ -155,7 +155,7 @@ class TechnicalTest {
       double output = -2.25;
       // --- End of Answer ---
 
-      return output is double && output == -2.25;
+      return output == -2.25;
     },
     // Exercise 18
     () {
@@ -164,7 +164,7 @@ class TechnicalTest {
       double output = 0.01;
       // --- End of Answer ---
 
-      return output is double && output == 0.01;
+      return output == 0.01;
     },
     // Exercise 19
     () {
@@ -173,7 +173,7 @@ class TechnicalTest {
       double output = 123.456;
       // --- End of Answer ---
 
-      return output is double && output == 123.456;
+      return output == 123.456;
     },
     // Exercise 20
     () {
@@ -182,7 +182,7 @@ class TechnicalTest {
       double output = -9876.54321;
       // --- End of Answer ---
 
-      return output is double && output == -9876.54321;
+      return output == -9876.54321;
     },
     // Exercise 21
     () {
@@ -191,7 +191,7 @@ class TechnicalTest {
       bool output = (true);
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 22
     () {
@@ -200,7 +200,7 @@ class TechnicalTest {
       bool output = (false);
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 23
     () {
@@ -209,7 +209,7 @@ class TechnicalTest {
       bool output = (true);
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 24
     () {
@@ -218,7 +218,7 @@ class TechnicalTest {
       bool output = (false);
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 25
     () {
@@ -227,7 +227,7 @@ class TechnicalTest {
       bool output = (true);
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 26
     () {
@@ -236,7 +236,7 @@ class TechnicalTest {
       bool output = (false);
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 27
     () {
@@ -245,7 +245,7 @@ class TechnicalTest {
       bool output = (true);
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 28
     () {
@@ -254,7 +254,7 @@ class TechnicalTest {
       bool output = (false);
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 29
     () {
@@ -263,7 +263,7 @@ class TechnicalTest {
       bool output = (true);
       // --- End of Answer ---
 
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 30
     () {
@@ -272,7 +272,7 @@ class TechnicalTest {
       bool output = (false);
       // --- End of Answer ---
 
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 31
     () {
@@ -281,7 +281,7 @@ class TechnicalTest {
       String output = ("Hello, World!");
       // --- End of Answer ---
 
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 32
     () {
@@ -290,7 +290,7 @@ class TechnicalTest {
       String output = ("Dart is fun!");
       // --- End of Answer ---
 
-      return output is String && output == "Dart is fun!";
+      return output == "Dart is fun!";
     },
     // Exercise 33
     () {
@@ -299,7 +299,7 @@ class TechnicalTest {
       String output = ("12345");
       // --- End of Answer ---
 
-      return output is String && output == "12345";
+      return output == "12345";
     },
     // Exercise 34
     () {
@@ -308,7 +308,7 @@ class TechnicalTest {
       String output = ("3.14159");
       // --- End of Answer ---
 
-      return output is String && output == "3.14159";
+      return output == "3.14159";
     },
     // Exercise 35
     () {
@@ -317,7 +317,7 @@ class TechnicalTest {
       String output = "true";
       // --- End of Answer ---
 
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 36
     () {
@@ -326,7 +326,7 @@ class TechnicalTest {
       String output = "false";
       // --- End of Answer ---
 
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 37
     () {
@@ -335,7 +335,7 @@ class TechnicalTest {
       String output = "Hello, Dart!";
       // --- End of Answer ---
 
-      return output is String && output == "Hello, Dart!";
+      return output == "Hello, Dart!";
     },
     // Exercise 38
     () {
@@ -344,7 +344,7 @@ class TechnicalTest {
       String output = "42";
       // --- End of Answer ---
 
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 39
     () {
@@ -353,7 +353,7 @@ class TechnicalTest {
       String output = "3.14";
       // --- End of Answer ---
 
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 40
     () {
@@ -362,7 +362,7 @@ class TechnicalTest {
       String output = "Hello, World!";
       // --- End of Answer ---
 
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 41
     () {
@@ -371,10 +371,7 @@ class TechnicalTest {
       DateTime output = DateTime(2022, 1, 1);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2022 &&
-          output.month == 1 &&
-          output.day == 1;
+      return output.year == 2022 && output.month == 1 && output.day == 1;
     },
     // Exercise 42
     () {
@@ -383,10 +380,7 @@ class TechnicalTest {
       DateTime output = DateTime(2000, 12, 31);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2000 &&
-          output.month == 12 &&
-          output.day == 31;
+      return output.year == 2000 && output.month == 12 && output.day == 31;
     },
     // Exercise 43
     () {
@@ -395,10 +389,7 @@ class TechnicalTest {
       DateTime output = DateTime(1995, 9, 15);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 1995 &&
-          output.month == 9 &&
-          output.day == 15;
+      return output.year == 1995 && output.month == 9 && output.day == 15;
     },
     // Exercise 44
     () {
@@ -407,10 +398,7 @@ class TechnicalTest {
       DateTime output = DateTime(2023, 5, 10);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2023 &&
-          output.month == 5 &&
-          output.day == 10;
+      return output.year == 2023 && output.month == 5 && output.day == 10;
     },
     // Exercise 45
     () {
@@ -419,10 +407,7 @@ class TechnicalTest {
       DateTime output = DateTime(2010, 11, 24);
       // --- End of Answer ---
 
-      return output is DateTime &&
-          output.year == 2010 &&
-          output.month == 11 &&
-          output.day == 24;
+      return output.year == 2010 && output.month == 11 && output.day == 24;
     },
     // Exercise 46
     () {
@@ -431,10 +416,7 @@ class TechnicalTest {
       List<int> output = [1, 2, 3, 4, 5];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 1 &&
-          output[4] == 5;
+      return output.length == 5 && output[0] == 1 && output[4] == 5;
     },
     // Exercise 47
     () {
@@ -443,10 +425,7 @@ class TechnicalTest {
       List<int> output = [10, 20, 30, 40, 50];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 10 &&
-          output[4] == 50;
+      return output.length == 5 && output[0] == 10 && output[4] == 50;
     },
     // Exercise 48
     () {
@@ -455,10 +434,7 @@ class TechnicalTest {
       List<int> output = [5, 4, 3, 2, 1];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 5 &&
-          output[4] == 1;
+      return output.length == 5 && output[0] == 5 && output[4] == 1;
     },
     // Exercise 49
     () {
@@ -467,10 +443,7 @@ class TechnicalTest {
       List<int> output = [0, 2, 4, 6, 8];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 0 &&
-          output[4] == 8;
+      return output.length == 5 && output[0] == 0 && output[4] == 8;
     },
     // Exercise 50
     () {
@@ -479,10 +452,7 @@ class TechnicalTest {
       List<int> output = [9, 7, 5, 3, 1];
       // --- End of Answer ---
 
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 9 &&
-          output[4] == 1;
+      return output.length == 5 && output[0] == 9 && output[4] == 1;
     },
     // Exercise 51
     () {
@@ -491,10 +461,7 @@ class TechnicalTest {
       List<double> output = [1.1, 2.2, 3.3, 4.4, 5.5];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 1.1 &&
-          output[4] == 5.5;
+      return output.length == 5 && output[0] == 1.1 && output[4] == 5.5;
     },
     // Exercise 52
     () {
@@ -503,10 +470,7 @@ class TechnicalTest {
       List<double> output = [0.5, 1.5, 2.5, 3.5, 4.5];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 0.5 &&
-          output[4] == 4.5;
+      return output.length == 5 && output[0] == 0.5 && output[4] == 4.5;
     },
     // Exercise 53
     () {
@@ -515,10 +479,7 @@ class TechnicalTest {
       List<double> output = [10.0, 20.0, 30.0, 40.0, 50.0];
       // --- End of Answer ---
 
-      return output is List<double> &&
-          output.length == 5 &&
-          output[0] == 10.0 &&
-          output[4] == 50.0;
+      return output.length == 5 && output[0] == 10.0 && output[4] == 50.0;
     },
     // Exercise 54
     () {
@@ -527,10 +488,7 @@ class TechnicalTest {
       List<String> output = ["apple", "banana", "cherry", "date", "fig"];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
-          output[0] == "apple" &&
-          output[4] == "fig";
+      return output.length == 5 && output[0] == "apple" && output[4] == "fig";
     },
     // Exercise 55
     () {
@@ -539,8 +497,7 @@ class TechnicalTest {
       List<String> output = ["grape", "kiwi", "lemon", "mango", "orange"];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0] == "grape" &&
           output[4] == "orange";
     },
@@ -557,8 +514,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<String> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0] == "pear" &&
           output[4] == "tangerine";
     },
@@ -569,10 +525,7 @@ class TechnicalTest {
       List<bool> output = [true, false, true, false, true];
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
-          output[0] == true &&
-          output[4] == true;
+      return output.length == 5 && output[0] == true && output[4] == true;
     },
     // Exercise 58
     () {
@@ -581,10 +534,7 @@ class TechnicalTest {
       List<bool> output = [false, true, false, true, false];
       // --- End of Answer ---
 
-      return output is List<bool> &&
-          output.length == 5 &&
-          output[0] == false &&
-          output[4] == false;
+      return output.length == 5 && output[0] == false && output[4] == false;
     },
     // Exercise 59
     () {
@@ -606,8 +556,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["age"] == 30 &&
           output[4]["name"] == "Eve" &&
@@ -633,8 +582,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["fruit"] == "apple" &&
           output[0]["color"] == "red" &&
           output[4]["fruit"] == "fig" &&
@@ -675,8 +623,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["scores"].length == 3 &&
           output[4]["name"] == "Eve" &&
@@ -717,8 +664,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["skills"].length == 3 &&
           output[4]["name"] == "Eve" &&
@@ -759,8 +705,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["courses"].length == 2 &&
           output[4]["name"] == "Eve" &&
@@ -801,8 +746,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["data"]["age"] == 30 &&
           output[0]["data"]["city"] == "New York" &&
@@ -849,8 +793,7 @@ class TechnicalTest {
       ];
       // --- End of Answer ---
 
-      return output is List<Map<String, dynamic>> &&
-          output.length == 5 &&
+      return output.length == 5 &&
           output[0]["name"] == "Alice" &&
           output[0]["details"]["age"] == 30 &&
           output[0]["details"]["city"] == "New York" &&
@@ -874,8 +817,7 @@ class TechnicalTest {
         "details": {"age": 30, "city": "New York"}
       };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Alice" &&
+      return output["name"] == "Alice" &&
           output["details"]["age"] == 30 &&
           output["details"]["city"] == "New York";
     },
@@ -895,8 +837,7 @@ class TechnicalTest {
         "details": {"age": 25, "city": "Los Angeles"}
       };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Bob" &&
+      return output["name"] == "Bob" &&
           output["details"]["age"] == 25 &&
           output["details"]["city"] == "Los Angeles";
     },
@@ -916,8 +857,7 @@ class TechnicalTest {
         "details": {"age": 35, "city": "Chicago"}
       };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Carol" &&
+      return output["name"] == "Carol" &&
           output["details"]["age"] == 35 &&
           output["details"]["city"] == "Chicago";
     },
@@ -937,8 +877,7 @@ class TechnicalTest {
         "details": {"age": 28, "city": "Houston"}
       };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "David" &&
+      return output["name"] == "David" &&
           output["details"]["age"] == 28 &&
           output["details"]["city"] == "Houston";
     },
@@ -958,8 +897,7 @@ class TechnicalTest {
         "details": {"age": 22, "city": "Miami"}
       };
       // --- End of Answer ---
-      return output is Map<String, dynamic> &&
-          output["name"] == "Eve" &&
+      return output["name"] == "Eve" &&
           output["details"]["age"] == 22 &&
           output["details"]["city"] == "Miami";
     },
@@ -978,8 +916,7 @@ class TechnicalTest {
         {"name": "Carol", "age": 35}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Alice" &&
+      return output[0]["name"] == "Alice" &&
           output[0]["age"] == 30 &&
           output[1]["name"] == "Bob" &&
           output[1]["age"] == 25 &&
@@ -1001,8 +938,7 @@ class TechnicalTest {
         {"name": "Frank", "age": 40}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "David" &&
+      return output[0]["name"] == "David" &&
           output[0]["age"] == 28 &&
           output[1]["name"] == "Eve" &&
           output[1]["age"] == 22 &&
@@ -1024,8 +960,7 @@ class TechnicalTest {
         {"name": "Ivy", "age": 29}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Grace" &&
+      return output[0]["name"] == "Grace" &&
           output[0]["age"] == 50 &&
           output[1]["name"] == "Hank" &&
           output[1]["age"] == 45 &&
@@ -1047,8 +982,7 @@ class TechnicalTest {
         {"name": "Leo", "age": 38}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Jack" &&
+      return output[0]["name"] == "Jack" &&
           output[0]["age"] == 33 &&
           output[1]["name"] == "Kate" &&
           output[1]["age"] == 27 &&
@@ -1070,8 +1004,7 @@ class TechnicalTest {
         {"name": "Olivia", "age": 26}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Mia" &&
+      return output[0]["name"] == "Mia" &&
           output[0]["age"] == 24 &&
           output[1]["name"] == "Noah" &&
           output[1]["age"] == 29 &&
@@ -1093,8 +1026,7 @@ class TechnicalTest {
         {"name": "Robert", "age": 36}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Peter" &&
+      return output[0]["name"] == "Peter" &&
           output[0]["age"] == 31 &&
           output[1]["name"] == "Queen" &&
           output[1]["age"] == 23 &&
@@ -1116,8 +1048,7 @@ class TechnicalTest {
         {"name": "Uma", "age": 30}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Sam" &&
+      return output[0]["name"] == "Sam" &&
           output[0]["age"] == 27 &&
           output[1]["name"] == "Tom" &&
           output[1]["age"] == 32 &&
@@ -1139,8 +1070,7 @@ class TechnicalTest {
         {"name": "Xander", "age": 35}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Victoria" &&
+      return output[0]["name"] == "Victoria" &&
           output[0]["age"] == 29 &&
           output[1]["name"] == "William" &&
           output[1]["age"] == 24 &&
@@ -1160,8 +1090,7 @@ class TechnicalTest {
         {"name": "Zane", "age": 31}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output[0]["name"] == "Yara" &&
+      return output[0]["name"] == "Yara" &&
           output[0]["age"] == 28 &&
           output[1]["name"] == "Zane" &&
           output[1]["age"] == 31;
@@ -1227,8 +1156,7 @@ class TechnicalTest {
         {"name": "Zane", "age": 31}
       ];
       // --- End of Answer ---
-      return output is List<Map<String, dynamic>> &&
-          output.length == 26 &&
+      return output.length == 26 &&
           output[2]["name"] == "Carol" &&
           output.last["age"] == 31;
     },
@@ -1242,7 +1170,7 @@ class TechnicalTest {
       int? output;
       output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 42;
+      return output == 42;
     },
     // Exercise 82
     () {
@@ -1254,7 +1182,7 @@ class TechnicalTest {
       int? output;
       output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 83
     () {
@@ -1266,7 +1194,7 @@ class TechnicalTest {
       int? output;
       output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == -99;
+      return output == -99;
     },
     // Exercise 84
     () {
@@ -1278,7 +1206,7 @@ class TechnicalTest {
       int? output;
       output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 3;
+      return output == 3;
     },
     // Exercise 85
     () {
@@ -1290,7 +1218,7 @@ class TechnicalTest {
       int? output;
       output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 9;
+      return output == 9;
     },
     // Exercise 86
     () {
@@ -1302,7 +1230,7 @@ class TechnicalTest {
       int? output;
       output = input.toInt();
       // --- End of Answer ---
-      return output is int && output == 5;
+      return output == 5;
     },
     // Exercise 87
     () {
@@ -1314,7 +1242,7 @@ class TechnicalTest {
       int? output;
       output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 1;
+      return output == 1;
     },
     // Exercise 88
     () {
@@ -1326,7 +1254,7 @@ class TechnicalTest {
       int? output;
       output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 0;
+      return output == 0;
     },
     // Exercise 89
     () {
@@ -1338,7 +1266,7 @@ class TechnicalTest {
       int? output;
       output = input ? 1 : 0;
       // --- End of Answer ---
-      return output is int && output == 1;
+      return output == 1;
     },
     // Exercise 90
     () {
@@ -1350,7 +1278,7 @@ class TechnicalTest {
       int? output;
       output = int.parse(input);
       // --- End of Answer ---
-      return output is int && output == 123;
+      return output == 123;
     },
     // Exercise 91
     () {
@@ -1362,7 +1290,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 92
     () {
@@ -1374,7 +1302,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 9.99;
+      return output == 9.99;
     },
     // Exercise 93
     () {
@@ -1386,7 +1314,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 5.5;
+      return output == 5.5;
     },
     // Exercise 94
     () {
@@ -1398,7 +1326,7 @@ class TechnicalTest {
       bool? output;
       output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 95
     () {
@@ -1410,7 +1338,7 @@ class TechnicalTest {
       bool? output;
       output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 96
     () {
@@ -1422,7 +1350,7 @@ class TechnicalTest {
       bool? output;
       output = input == 1;
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 97
     () {
@@ -1434,7 +1362,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "Hello, World!";
+      return output == "Hello, World!";
     },
     // Exercise 98
     () {
@@ -1446,7 +1374,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "2022";
+      return output == "2022";
     },
     // Exercise 99
     () {
@@ -1458,7 +1386,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14159";
+      return output == "3.14159";
     },
     // Exercise 100
     () {
@@ -1470,7 +1398,7 @@ class TechnicalTest {
       String? output;
       output = input.yMd;
       // --- End of Answer ---
-      return output is String && output == "2023-08-09";
+      return output == "2023-08-09";
     },
     // Exercise 101
     () {
@@ -1482,7 +1410,7 @@ class TechnicalTest {
       bool? output;
       output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 102
     () {
@@ -1495,7 +1423,7 @@ class TechnicalTest {
       output = bool.parse(input);
 
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 103
     () {
@@ -1507,7 +1435,7 @@ class TechnicalTest {
       bool? output;
       output = input == 1;
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 104
     () {
@@ -1519,7 +1447,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 105
     () {
@@ -1531,7 +1459,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 106
     () {
@@ -1543,7 +1471,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 107
     () {
@@ -1555,7 +1483,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 108
     () {
@@ -1567,7 +1495,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 9.99;
+      return output == 9.99;
     },
     // Exercise 109
     () {
@@ -1579,7 +1507,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 110
     () {
@@ -1591,7 +1519,7 @@ class TechnicalTest {
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 5.5;
+      return output == 5.5;
     },
     // Exercise 111
     () {
@@ -1603,7 +1531,7 @@ class TechnicalTest {
       bool? output;
       output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == true;
+      return output == true;
     },
     // Exercise 112
     () {
@@ -1615,7 +1543,7 @@ class TechnicalTest {
       bool? output;
       output = bool.parse(input);
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 113
     () {
@@ -1627,7 +1555,7 @@ class TechnicalTest {
       bool? output;
       output = input == 1;
       // --- End of Answer ---
-      return output is bool && output == false;
+      return output == false;
     },
     // Exercise 114
     () {
@@ -1639,7 +1567,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "true";
+      return output == "true";
     },
     // Exercise 115
     () {
@@ -1651,7 +1579,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "false";
+      return output == "false";
     },
     // Exercise 116
     () {
@@ -1663,7 +1591,7 @@ class TechnicalTest {
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "42";
+      return output == "42";
     },
     // Exercise 117
     () {
@@ -1671,11 +1599,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel String? output;
       // ? Instruksi 3: Konversi input menjadi String dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "3.14";
+      String input = "3.14";
       String? output;
       output = input.toString();
       // --- End of Answer ---
-      return output is String && output == "3.14";
+      return output == "3.14";
     },
     // Exercise 118
     () {
@@ -1683,11 +1611,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "9.99";
+      String input = "9.99";
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 9.99;
+      return output == 9.99;
     },
     // Exercise 119
     () {
@@ -1695,11 +1623,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "3.14";
+      String input = "3.14";
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 3.14;
+      return output == 3.14;
     },
     // Exercise 120
     () {
@@ -1707,11 +1635,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel double? output;
       // ? Instruksi 3: Konversi input menjadi double dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "5.5";
+      String input = "5.5";
       double? output;
       output = double.parse(input);
       // --- End of Answer ---
-      return output is double && output == 5.5;
+      return output == 5.5;
     },
     // Exercise 121
     () {
@@ -1719,14 +1647,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "2023-08-09";
+      String input = "2023-08-09";
       DateTime? output;
       output = DateTime.parse(input);
       // --- End of Answer ---
-      return output is DateTime &&
-          output.year == 2023 &&
-          output.month == 8 &&
-          output.day == 9;
+      return output.year == 2023 && output.month == 8 && output.day == 9;
     },
     // Exercise 122
     () {
@@ -1734,14 +1659,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "1999-12-31";
+      String input = "1999-12-31";
       DateTime? output;
       output = DateTime.parse(input);
       // --- End of Answer ---
-      return output is DateTime &&
-          output.year == 1999 &&
-          output.month == 12 &&
-          output.day == 31;
+      return output.year == 1999 && output.month == 12 && output.day == 31;
     },
     // Exercise 123
     () {
@@ -1749,14 +1671,11 @@ class TechnicalTest {
       // ? Instruksi 2: Buatlah variabel DateTime? output;
       // ? Instruksi 3: Konversi input menjadi DateTime dan tampung di dalam variabel output
       // >>> Tulis jawabanmu di bawah ini
-       String input = "2022-01-15";
+      String input = "2022-01-15";
       DateTime? output;
       output = DateTime.parse(input);
       // --- End of Answer ---
-      return output is DateTime &&
-          output.year == 2022 &&
-          output.month == 1 &&
-          output.day == 15;
+      return output.year == 2022 && output.month == 1 && output.day == 15;
     },
     // Exercise 124
     () {
@@ -1768,10 +1687,7 @@ class TechnicalTest {
       DateTime? output;
       output = DateTime.parse(input);
       // --- End of Answer ---
-      return output is DateTime &&
-          output.year == 1987 &&
-          output.month == 5 &&
-          output.day == 25;
+      return output.year == 1987 && output.month == 5 && output.day == 25;
     },
     // Exercise 125
     () {
@@ -1783,10 +1699,7 @@ class TechnicalTest {
       DateTime? output;
       output = DateTime.parse(input);
       // --- End of Answer ---
-      return output is DateTime &&
-          output.year == 2025 &&
-          output.month == 10 &&
-          output.day == 1;
+      return output.year == 2025 && output.month == 10 && output.day == 1;
     },
     // Exercise 126
     () {
@@ -1798,10 +1711,7 @@ class TechnicalTest {
       List<int>? output;
       output = List<int>.empty();
       // --- End of Answer ---
-      return output is List<int> &&
-          output.length == 5 &&
-          output[0] == 1 &&
-          output[4] == 5;
+      return output.length == 5 && output[0] == 1 && output[4] == 5;
     },
     // Exercise 127
     () {
